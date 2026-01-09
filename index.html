@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Momentos da Eny Íris</title>
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+    }
+
+    header {
+      background: linear-gradient(135deg, #d16ba5, #86a8e7, #5ffbf1);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .categoria {
+      background-color: white;
+      border-radius: 12px;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .categoria:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+    }
+
+    .categoria h2 {
+      margin: 0;
+      font-size: 1.4rem;
+      color: #333;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #eee;
+      color: #666;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Momentos da Eny Íris</h1>
+    <p>Um espaço especial para guardar lembranças</p>
+  </header>
+
+  <main>
+    <div class="categoria"><h2>Mateus</h2></div>
+    <div class="categoria"><h2>Gustavo</h2></div>
+    <div class="categoria"><h2>John</h2></div>
+    <div class="categoria"><h2>Rosângela</h2></div>
+    <div class="categoria"><h2>Mary</h2></div>
+    <div class="categoria"><h2>Bárbara</h2></div>
+  </main>
+
+  <footer>
+    © 2026 • Momentos da Eny Íris
+  </footer>
+</body>
+</html>
